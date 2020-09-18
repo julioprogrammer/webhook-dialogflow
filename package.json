@@ -1,0 +1,25 @@
+{
+  "name": "api_node_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "production": "pm2 start server.js --name webhook-app",
+    "show": "pm2 show webhook-app",
+    "monit": "pm2 monit",
+    "stop": "pm2 stop webhook-app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "config": "3.2.3",
+    "consign": "0.1.6",
+    "express": "4.17.1",
+    "pm2": "^2.1.5",
+    "uuid": "3.3.3"
+  }
+}
