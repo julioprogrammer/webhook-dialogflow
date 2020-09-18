@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server",
-    "production": "pm2 start server.js --name webhook-app",
+    "dev": "nodemon server",
+    "start": "pm2 start server.js --name webhook-app",
     "show": "pm2 show webhook-app",
     "monit": "pm2 monit",
     "stop": "pm2 stop webhook-app",
