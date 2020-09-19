@@ -45,8 +45,8 @@ module.exports = app => {
   return controller;
 };
 
-const notificationUpdateStatus = ({ proposalNumber, status, phone }) => {
-  client.messages
+const notificationUpdateStatus = async ({ proposalNumber, status, phone }) => {
+  await client.messages
     .create({
       from: 'whatsapp:+14155238886',
       body: `O status da sua proposta ${proposalNumber} foi alterado para: ${status}.`,
