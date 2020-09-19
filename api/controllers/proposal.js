@@ -1,5 +1,5 @@
 const accountSid = 'AC259b32a9ce1399bc5fad5ac386165988';
-const authToken = '499b470e0c804f3954aa759dd7d4bcc9';
+const authToken = '22f8b53223ad70a3455e217a045d9288';
 const client = require('twilio')(accountSid, authToken);
 
 module.exports = app => {
