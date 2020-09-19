@@ -2,9 +2,11 @@
   "proposals": {
     "data": [
       {
+        "id": 1,
         "proposalNumber": "44123",
         "status": "Em análise",
-        "xpaccount": "55443"
+        "xpaccount": "55443",
+        "phone": "+5511952039826"
       }
     ]
   }
